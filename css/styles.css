@@ -1,0 +1,90 @@
+body {
+    margin:0;
+    padding:0;
+  }
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contacto{
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+
+
+.left-numero{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.info-right{
+    display: flex;
+    margin-bottom: 0;
+
+}
+
+.right-redes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.right-redes i{
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+.numero{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.header-li-left{
+    padding-right: 20px;
+}
+.header-li-right{
+    padding-right: 10px;
+}
+
+
+.cotizar{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.presentacion{
+    background-color: green;
+    height: 500px;
+    color: #fff;
+    
+}
+
+.presentacion p{
+    font-weight: 300,bold;
+    font-size:15px;
+    
+}
+
+.presentacion h2{
+    font-size: 50px;
+    font-weight: 400;
+    
+}
