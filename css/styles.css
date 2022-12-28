@@ -141,11 +141,63 @@ li{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.datos h5{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.datos p{
+    font-weight: 300;
+}
 
 .listo{
     
     background-color: rebeccapurple;
+    padding: 5px;
     border-radius: 50%;
+    color: #fff;
+
+}
+
+.puntos{
+    display: flex;
+    justify-content: space-between;
     
+}
+
+.valores h6{
+    font-weight: bold;
+}
+
+.valores p{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.proceso{
     
+    justify-content: center;
+    text-align: center;
+    background-color: cadetblue;
+    width: auto;
+    height: auto;
+}
+
+.contenedor-cartas{
+    display: flex;
+}
+
+.cartas{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    
+}
+
+.carta{
+    background-color: chocolate;
+    font-size: 12px;
+    padding-left:20px ;
+    padding-right: 20px;
+    border-radius: 5%;
 }
