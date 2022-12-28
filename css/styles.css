@@ -1,24 +1,24 @@
 body {
-    margin:0;
-    padding:0;
-  }
+    margin: 0;
+    padding: 0;
+}
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
 
 
-.contacto{
+.contacto {
     background-color: aqua;
     height: 50px;
     display: flex;
     align-items: center;
 }
 
-.info{
+.info {
     margin: 0 auto;
     display: flex;
-    align-items: center; 
+    align-items: center;
     width: 70%;
     justify-content: space-between;
     margin-bottom: 0;
@@ -26,51 +26,52 @@ body {
 
 
 
-.left-numero{
+.left-numero {
     display: flex;
     margin-bottom: 0;
 }
 
-.info-right{
+.info-right {
     display: flex;
     margin-bottom: 0;
 
 }
 
-.right-redes{
+.right-redes {
     display: flex;
     align-items: center;
     margin-bottom: 0;
 }
 
-.right-redes i{
+.right-redes i {
     cursor: pointer;
 }
 
-li{
+li {
     list-style: none;
 }
 
-.numero{
+.numero {
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
-.header-li-left{
+.header-li-left {
     padding-right: 20px;
 }
-.header-li-right{
+
+.header-li-right {
     padding-right: 10px;
 }
 
 
-.cotizar{
+.cotizar {
     background-color: blue;
     color: white;
     font-weight: bold;
 }
 
-.presentacion{
+.presentacion {
     background-color: green;
     height: 500px;
     color: #fff;
@@ -78,19 +79,19 @@ li{
     margin: 0;
 }
 
-.presentacion p{
-    font-weight: 300,bold;
-    font-size:15px;
-    
+.presentacion p {
+    font-weight: 300, bold;
+    font-size: 15px;
+
 }
 
-.presentacion h2{
+.presentacion h2 {
     font-size: 50px;
     font-weight: 400;
-    
+
 }
 
-.servicios{
+.servicios {
     background-color: palegreen;
     display: flex;
     height: auto;
@@ -98,60 +99,61 @@ li{
     margin: 0;
 }
 
-.servicios .titulos{
+.servicios .titulos {
     display: flex;
     align-items: center;
     padding: 0;
 }
 
-.titulo{
+.titulo {
     height: 200px;
     align-items: center;
     display: flex;
 }
 
-.circulo{
+.circulo {
     border-radius: 50%;
     color: blue;
     background-color: white;
     border: 0px;
-    
+
 }
 
-.row .texto{
+.row .texto {
     text-align: center;
-    
+
 }
 
-.row .texto h4{
-  font-weight: 300;
-  font-size: 12pt;
-    
+.row .texto h4 {
+    font-weight: 300;
+    font-size: 12pt;
+
 }
 
-.row .texto a{
+.row .texto a {
     font-weight: 300;
     font-size: 10pt;
 }
 
-.caracteristicas{
+.caracteristicas {
     display: flex;
     width: auto;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.datos h5{
+
+.datos h5 {
     font-weight: 700;
     font-size: 35px;
 }
 
-.datos p{
+.datos p {
     font-weight: 300;
 }
 
-.listo{
-    
+.listo {
+
     background-color: rebeccapurple;
     padding: 5px;
     border-radius: 50%;
@@ -159,23 +161,23 @@ li{
 
 }
 
-.puntos{
+.puntos {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.valores h6{
+.valores h6 {
     font-weight: bold;
 }
 
-.valores p{
+.valores p {
     font-weight: 400;
     font-size: 12px;
 }
 
-.proceso{
-    
+.proceso {
+
     justify-content: center;
     text-align: center;
     background-color: cadetblue;
@@ -183,21 +185,109 @@ li{
     height: auto;
 }
 
-.contenedor-cartas{
+.contenedor-cartas {
     display: flex;
 }
 
-.cartas{
+.cartas {
     display: flex;
     text-align: left;
     justify-content: space-between;
+
+}
+
+.carta {
+    background-color: chocolate;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5%;
+    width: 23%;
+}
+
+.iconos {
+    display: flex;
+    background-color: blueviolet;
+    position: relative;
+    top: -15%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: #fff;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.contactanos {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.asesoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+
+}
+
+.card-cotizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+}
+
+.cuerpo p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.cuerpo h5 {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.card-numero p {
+    margin-bottom: 0;
+}
+
+
+.card-numero h5 {
+    font-size: 20px;
     
 }
 
-.carta{
-    background-color: chocolate;
-    font-size: 12px;
-    padding-left:20px ;
-    padding-right: 20px;
-    border-radius: 5%;
+.card-numero a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.boton-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton-card button{
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.icono-llamada{
+    background-color: brown;
+    padding: 7px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.llamanos {
+    display: flex;
 }
