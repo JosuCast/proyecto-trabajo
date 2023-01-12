@@ -64,6 +64,11 @@ li {
     padding-right: 10px;
 }
 
+.links{
+    color: #000;
+
+}
+
 
 .cotizar {
     background-color: blue;
@@ -92,7 +97,7 @@ li {
 }
 
 .servicios {
-    background-color: palegreen;
+    background-color: #1c1959;
     display: flex;
     height: auto;
     width: 100%;
@@ -110,6 +115,57 @@ li {
     align-items: center;
     display: flex;
 }
+
+.titulo p{
+    color: #fff;
+}
+
+.titulo h2{
+    color: #fff;
+    font-weight: 800;
+}
+
+.titulo-cuerpo{
+    display: flex;
+    align-items: center;
+}
+
+.icono-titulo{
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    padding: 5%;
+    margin-right: 10px;
+    background-color: #1c1959;
+    color: #fff;
+}
+
+.icono-texto p{
+    margin-bottom: 0;
+}
+
+.card-hover{
+    cursor: pointer;
+    transition: all 400ms ease;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+
+}
+
+.card-hover:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.card-hover:hover .circulo{
+    background-color: blue;
+    color: #fff;
+}
+
+.card-hover:hover .card-title{
+    color: #1c1959;
+}
+
+
 
 .circulo {
     border-radius: 50%;
@@ -130,7 +186,7 @@ li {
 
 }
 
-.row .texto a {
+.row .texto {
     font-weight: 300;
     font-size: 10pt;
 }
@@ -224,6 +280,15 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
+}
+
+.contactanos a{
+    color: #fff;
+}
+
+.contactanos a:hover{
+    color: gainsboro;
 }
 
 .asesoria {
@@ -444,3 +509,162 @@ li {
     margin-bottom: 0;
     text-align: center;
 }
+
+@media(max-width: 1520px){
+    .caracteristicas{
+        justify-content: space-between;
+        
+    }
+    .a{
+        width: 0;
+    }
+}
+
+@media(max-width: 1224px){
+
+    .opiniones .row{
+        margin-bottom: 0;
+    }
+
+    .opinion{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 1320px){
+    .card-texto h5{
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 1171px){
+
+    .asesoria-proyecto{
+        width: 80%;
+        
+    }
+
+    .card-texto h5{
+        font-size: 20px;
+    }
+    .card-numero h5{
+        font-size: 15px;
+    }
+}
+
+
+
+/*Pantallas grandes (desktops de menos de 1200px)*/
+@media (max-width: 1199.98px) { 
+    .caracteristicas{
+        justify-content: space-between;
+        
+    }
+
+    .imagen{
+        width: 40%;
+    }
+
+    .a{
+        width: 0;
+    }
+
+    .card-texto h5{
+        font-size: 25px;
+    }
+ }
+
+/*Pantallas medianas (tablets de menos de 992px)*/
+@media (max-width: 991.98px) { 
+
+ }
+
+/*Pantallas pequeñas (móviles en landscape de menos de 768px)*/
+@media (max-width: 767.98px) { 
+
+    .caracteristicas{
+        display: block;
+        justify-content: center;
+        
+    }
+
+    .asesoria{
+        height: auto;
+    }
+
+    .opiniones .row{
+        margin-right: 5px;
+        margin-left: 15px;
+    }
+
+    .carta-responsive{
+        padding-right: 0;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .titulo{
+        padding-right: 0;
+        
+    }
+
+    .row .texto{
+        padding-right: 0;
+        width: 90%;
+    }
+
+    .titulos .row{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .card-hover{
+        width: 90%;
+    }
+
+    .row .titulo{
+        width: 80%;
+    }
+
+    .datos{
+        text-align: center;
+    }
+
+    .imagen{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
+    .datos .row{ 
+        
+        text-align: left;
+    }
+
+
+    .valores h6{
+        margin-bottom: 0;
+    }
+
+    .valores{
+        margin-left: 10px;
+    }
+
+    .puntos{
+        padding-right: 0;
+        justify-content: center;
+       margin-bottom: 20px;
+    }
+
+    
+
+ }
+
+/*Pantallas muy pequeñas (móviles en portrait de menos de 576px)*/
+@media (max-width: 575.98px) { 
+    
+ }
