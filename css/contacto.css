@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 .div{
     display: none;
 }
@@ -82,14 +83,6 @@ li {
 }
 
 
-
-
-.cotizar {
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-}
-
 .presentacion {
     background-image: linear-gradient(
     to bottom,
@@ -102,15 +95,15 @@ li {
     color: #fff;
     width: 100%;
     margin: 0;
+    
 }
 
 .presen{
-    height: 500px;
+    height: 380px;
     display: flex;
     align-items: center;
     padding-left: 12px;
 }
-
 
 .presentacion p {
     font-weight: 300, bold;
@@ -124,394 +117,84 @@ li {
 
 }
 
-.servicios {
-    background-image: linear-gradient(
-    to bottom,
-    rgba(28,25,88),
-    rgba(160, 159, 159, 0.7)
-  );
-  
-    display: flex;
-    height: auto;
-    width: 100%;
-    margin: 0;
-}
-
-.servicios .titulos {
-    display: flex;
-    align-items: center;
-    padding: 0;
-}
-
-.titulo {
-    height: 200px;
-    align-items: center;
-    display: flex;
-}
-
-.titulo p{
-    color: #fff;
-}
-
-.titulo h2{
-    color: #fff;
-    font-weight: 800;
-}
-
-.titulo-cuerpo{
-    display: flex;
-    align-items: center;
-}
-
-.icono-titulo{
-    justify-content: center;
-    display: flex;
-    border-radius: 50%;
-    padding: 5%;
-    margin-right: 10px;
-    background-color: #000;
-    color: #fff;
-}
-
-.icono-texto p{
-    margin-bottom: 0;
-}
-
-.card-hover{
-    cursor: pointer;
-    transition: all 400ms ease;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-
-}
-
-.card-hover:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);
-}
-
-.card-hover:hover .circulo{
-    background-color: blue;
-    color: #fff;
-}
-
-.card-hover:hover .card-title{
-    color: #1c1959;
-}
-
-
-
-.circulo {
-    border-radius: 50%;
-    color: blue;
-    background-color: white;
-    border: 0px;
-
-}
-
-.row .texto {
-    text-align: center;
-
-}
-
-.row .texto h4 {
-    font-weight: 300;
-    font-size: 12pt;
-
-}
-
-.row .texto {
-    font-weight: 300;
-    font-size: 10pt;
-}
-
-.caracteristicas {
-    display: flex;
-    width: auto;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.datos h5 {
-    font-weight: 700;
-    font-size: 35px;
-}
-
-.datos p {
-    font-weight: 300;
-}
-
-.listo {
-
-    background-color: rebeccapurple;
-    padding: 5px;
-    border-radius: 50%;
-    color: #fff;
-
-}
-
-.puntos {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.valores h6 {
-    font-weight: bold;
-}
-
-.valores p {
-    font-weight: 400;
-    font-size: 12px;
-}
-
-.proceso {
-
-    justify-content: center;
-    text-align: center;
-    background-color: cadetblue;
-    width: auto;
-    height: auto;
-}
-
-.contenedor-cartas {
-    display: flex;
-}
-
-.cartas {
-    display: flex;
-    text-align: left;
-    justify-content: space-between;
-
-}
-
-.carta {
-    background-color: chocolate;
-    font-size: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5%;
-    width: 23%;
-}
-
-.iconos {
-    display: flex;
-    background-color: blueviolet;
+svg{
     position: relative;
-    top: -15%;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    color: #fff;
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
-}
-
-.contactanos {
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-}
-
-.contactanos a{
-    color: #fff;
-}
-
-.contactanos a:hover{
-    color: gainsboro;
-}
-
-.asesoria {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 500px;
-
-}
-
-.card-cotizar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 0;
-}
-
-.cuerpo p {
-    font-size: 13px;
-    font-weight: 500;
-}
-
-.cuerpo h5 {
-    font-weight: 500;
-    font-size: 30px;
-    margin-bottom: 0;
-}
-
-.card-numero p {
-    margin-bottom: 0;
-}
-
-
-.card-numero h5 {
-    font-size: 20px;
+    bottom: 0;
+    left: 0;
+    width: 30%;
     
 }
 
-.card-numero a{
-    text-decoration: none;
-    color: #000;
+.row>*{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.cotizar {
+    background-color: blue;
+    color: white;
     font-weight: bold;
 }
 
-.boton-card {
+
+.contacto-form{
     display: flex;
-    justify-content: space-between;
+    height: 1100px;
+}
+
+.container-form{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
-.boton-card button{
-    padding: 10px 20px;
-    font-size: 15px;
+.ubicacion{
+    width: 50%;
 }
 
-.icono-llamada{
-    background-color: brown;
-    padding: 7px;
-    border-radius: 50%;
-    margin-right: 15px;
-}
-
-.llamanos {
-    display: flex;
-}
-
-.asesoria-proyecto{
-    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.1);
-}
-
-.nosotros{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.nosotros-titulo p{
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.nosotros-titulo h5{
-    font-weight: 500;
-    font-size: 40px;
-}
-
-.personas{
-    display: flex;
-}
-
-.opiniones .row{
-    justify-content: space-around;
-    margin-bottom: 30px;
-}
-
-.opinion{
-    padding: 4% 5%;
-    
-}
-
-.opinion-titulo{
-    display: flex;
-    justify-content: space-between;
-}
-.avatar{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    
-}
-
-.estrellas{
-    color: goldenrod;
-}
-
-.avatar p{
-    margin-bottom: 0;
-    margin-left: 15px;
-}
-
-.tecnico{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.asesoria-form{
-    display: flex;
-    justify-content: center;
-}
-
-.formulario{
-    padding: 30px;
-    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.15);
-}
-
-.formulario .row{
-    display: flex;
-    justify-content: space-around;
-}
-
-.formulario .row input{
-    width: 28%;
-    height: 50px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgba(128, 128, 128, 0.5);
-    margin-bottom: 20px;
-}
-
-.formulario .row button{
-    width: 90%;
-    margin-left: 5%;
-    height: 120%;
-}
-
-
-.slider {
-    width: 70vw;
+.formulario-contacto{
     height: auto;
-    margin: auto;
-    overflow: hidden;
-}
-
-.slider .slide-track {
+    padding: 35px;
+    width: 50%;
     display: flex;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
-    width: calc(200px * 14);
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 1px 4px 20px rgba(0,0,0,0.2);
+    border-radius: 20px;
 }
 
-.slider .slide {
-    width: 200px;
+.formulario-contacto h3{
+    text-align: center;
 }
-
-.slider .slide img {
+.form{
     width: 100%;
+    
 }
 
-@keyframes scroll {
-    0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-    100% {
-        -webkit-transform: translateX(calc(-200px * 7));
-        transform: translateX(calc(-200px * 7));
-    }
+label{
+    font-weight: 600;
+}
+
+form{
+    display: grid;
+    
+    
+}
+
+form input, textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0 15px;
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+}
+
+.boton{
+    background-color: #004d6c;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .footer{
@@ -542,6 +225,9 @@ li {
     margin-bottom: 0;
     text-align: center;
 }
+
+
+
 
 @media(max-width: 1520px){
     .caracteristicas{
@@ -761,6 +447,10 @@ li {
 /*Pantallas pequeñas (móviles en landscape de menos de 768px)*/
 @media (max-width: 767.98px) { 
 
+    .presen{
+        margin-left: 20px;
+    }
+
     .left-numero{
         width: 70%;
         display: grid;
@@ -870,13 +560,7 @@ li {
     }
 
 
-    .valores h6{
-        margin-bottom: 0;
-    }
 
-    .valores{
-        margin-left: 10px;
-    }
 
     .puntos{
         padding-right: 0;
@@ -933,3 +617,4 @@ li {
         font-size: 40px;
     }
  }
+ 
