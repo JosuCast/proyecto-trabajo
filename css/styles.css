@@ -13,7 +13,7 @@ body {
 
 
 .contacto {
-    background-color: aqua;
+    background-color: rgba(247,247,247,1);
     height: 50px;
     display: flex;
     align-items: center;
@@ -27,17 +27,22 @@ body {
     margin-bottom: 0;
 }
 
-.active {
-    color: #304ffe;
-    border-bottom: 3px solid #304ffe;
-    
+.active {   
+    border-bottom: 3px solid red;    
+    color: #fff;
 }
 
+.item{
+    color: #fff;
+}
 
+.links{
+    color: #fff;
+}
 
 .links:hover{
-    color: #304ffe;
-    border-bottom: 3px solid #304ffe;
+    color: red;
+    border-bottom: 3px solid red;
     transition: 0.3s ease;
     
 }
@@ -73,6 +78,11 @@ li {
     font-size: 13px;
 }
 
+.numero a{
+    text-decoration: none;
+    color: #000;
+}
+
 .header-li-left {
     padding-right: 20px;
 }
@@ -80,7 +90,6 @@ li {
 .header-li-right {
     padding-right: 10px;
 }
-
 
 
 
@@ -122,6 +131,11 @@ li {
     font-size: 50px;
     font-weight: 400;
 
+}
+
+.descarga{
+    padding: 15px 20px;
+    font-weight: bold;
 }
 
 .servicios {
@@ -531,7 +545,17 @@ li {
 }
 
 .grupo .p{
-    margin-top: 50px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.p a{
+    text-decoration: none;
+    color: gray;
+}
+
+.p a:hover{
+    color: #fff;
 }
 
 .footer hr{

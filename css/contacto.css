@@ -29,16 +29,22 @@ body {
 }
 
 .active {
-    color: #304ffe;
-    border-bottom: 3px solid #304ffe;
+    color: #fff;
+    border-bottom: 3px solid red;
     
 }
 
+.item{
+    color: #fff;
+}
 
+.links{
+    color: #fff;
+}
 
 .links:hover{
-    color: #304ffe;
-    border-bottom: 3px solid #304ffe;
+    color: red;
+    border-bottom: 3px solid red;
     transition: 0.3s ease;
     
 }
@@ -214,7 +220,17 @@ form input, textarea{
 }
 
 .grupo .p{
-    margin-top: 50px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.p a{
+    text-decoration: none;
+    color: gray;
+}
+
+.p a:hover{
+    color: #fff;
 }
 
 .footer hr{
