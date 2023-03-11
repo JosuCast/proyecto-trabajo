@@ -7,7 +7,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 .div{
     display: none;
 }
@@ -28,10 +27,9 @@ body {
     margin-bottom: 0;
 }
 
-.active {
+.active {   
+    border-bottom: 3px solid red;    
     color: #fff;
-    border-bottom: 3px solid red;
-    
 }
 
 .item{
@@ -80,6 +78,11 @@ li {
     font-size: 13px;
 }
 
+.numero a{
+    text-decoration: none;
+    color: #000;
+}
+
 .header-li-left {
     padding-right: 20px;
 }
@@ -89,118 +92,207 @@ li {
 }
 
 
-.presentacion {
-    background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 255, 0.5)
-  ), url("https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-people-and-city-business-technology-image_262168.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-    color: #fff;
-    width: 100%;
-    margin: 0;
-    
-}
-
-.presen{
-    height: 380px;
-    display: flex;
-    align-items: center;
-    padding-left: 12px;
-}
-
-.presentacion p {
-    font-weight: 300, bold;
-    font-size: 15px;
-
-}
-
-.presentacion h2 {
-    font-size: 50px;
-    font-weight: 400;
-
-}
-
-svg{
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 30%;
-    
-}
-
-.row>*{
-    padding-right: 0;
-    padding-left: 0;
-}
 
 .cotizar {
-    background-color: blue;
-    color: white;
+    background-color: red;
+    border: none;
+    color: #fff;
     font-weight: bold;
 }
 
-
-.contacto-form{
-    display: flex;
-    height: 1100px;
+.cotizar:hover{
+    background-color: rgba(247,247,247,1);
+    color: #000;
+    transition: 0.5s ease;
 }
 
-.container-form{
+
+.blog{
+    display: flex;
+
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://img.freepik.com/fotos-premium/tecnologias-resumen-espacio-poligonal-poli-oscuro-fondo-oscuro-puntos-lineas-conexion-estructura-conexion-fondo-poligonal-futurista-fondo-pantalla-negocios-triangular_38076-1954.jpg);
+}
+
+.texto-blog{
+    display: flex;
+}
+
+.blog-text h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.blog-text a{
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.blanco{
+    color: #fff;
+}
+
+.gris{
+    margin-left: 15px;
+    color: grey;
+}
+
+
+
+.contenido{
+    display: flex;
+}
+
+.publicaciones-blog{
+    display: flex;
+    margin-top: 60px;
+}
+
+.fila{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.blog-right{
+    padding: 50px;
+    
+}
+
+.espacio{
+    margin-top: 50px;
+}
+
+.ultimas{
+    background-color: #fff;
+    padding: 35px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+
+
+.categoria a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.categoria a:hover{
+    color: red;
+}
+
+.categoria a:hover .texto{
+    transform: translateX(3%);
+    transition: all 400ms ease;
+}
+
+.texto-central{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.equipamiento{
+    margin-top: 30px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 13px;
+}
+
+.check i{
+    font-size: 25px;
+    color: red;
+}
+
+.check p{
+    margin-left: 15px;
+
+    margin-bottom: 0;
+}
+
+.texto-abajo{
+    margin-top: 50px;
+}
+
+.formulario form{
+    display: grid;
+}
+
+.formulario form label{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.formulario form input{
+   border-radius: 5px;
+   border-color: rgba(128, 128, 128, 0.2);
+   border-width: 1px;
+   padding: 10px;
+   background-color: rgba(128, 128, 128, 0.1);
+   outline: none;
+}
+
+.formulario form input:focus{
+    border-color: rgba(100, 4, 4,1);
+    transition: 0.3s ease;
+}
+
+.formulario form button{
+    border: none;
+    color: #fff;
+    background-color: rgb(219, 12, 12);
+    border-radius: 5px;
+    padding: 12px 0;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.formulario form button:hover{
+    background-color: rgba(100, 4, 4,1);
+    transition: 0.3s ease;
+}
+
+.formulario form button{
+    margin-top: 30px;
+}
+
+.elegir h6{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.razon{
+    display: flex;
     align-items: center;
 }
 
-.ubicacion{
-    width: 50%;
+.razon i{
+    font-size: 50px;
+    margin-right: 20px;
+    color: #004d6c;
 }
 
-.formulario-contacto{
-    height: auto;
-    padding: 35px;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
-    box-shadow: 1px 4px 20px rgba(0,0,0,0.2);
-    border-radius: 20px;
+.razon b{
+    color: rgb(219, 12, 12);
 }
 
-.formulario-contacto h3{
-    text-align: center;
-}
-.form{
-    width: 100%;
-    
-}
-
-label{
-    font-weight: 600;
-}
-
-form{
-    display: grid;
-    
-    
-}
-
-form input, textarea{
-    width: 100%;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 5px 0 15px;
-    background-color: #f7f7f7;
-    border: 1px solid #eee;
-}
-
-.boton{
-    background-color: #004d6c;
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
+.razon p{
+    margin-bottom: 0;
 }
 
 .footer{
@@ -241,7 +333,6 @@ form input, textarea{
     margin-bottom: 0;
     text-align: center;
 }
-
 
 
 
@@ -463,126 +554,11 @@ form input, textarea{
 /*Pantallas pequeñas (móviles en landscape de menos de 768px)*/
 @media (max-width: 767.98px) { 
 
-    .presen{
-        margin-left: 20px;
-    }
-
-    .left-numero{
-        width: 70%;
-        display: grid;
-    }
-
-    .div{
-        justify-content: space-between;
-    }
-
-    .contenedor-cartas{
-        width: 70%;
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .cartas{
-        display: grid;
-    }
-
-    .carta{
-        width: 100%;
-        margin-bottom: 30px;
-        border-radius: 20px;
-        
-    }
-
-    .carta h6{
-        font-size: 25px;
-    }
-
-    .carta p{
-        font-size: 15px;
-    }
-
-    .caracteristicas{
-        display: block;
-        justify-content: center;
-        
-    }
-
-    .asesoria{
-        height: auto;
-        padding-bottom: 40px;
-        padding-top: 20px;
-        
-        
-    }
-
-    .opiniones .row{
-        margin-right: 5px;
-        margin-left: 15px;
-    }
-
-    .carta-responsive{
-        padding-right: 0;
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .titulo-cuerpo {
-        width: 100%;
-        font-size: auto;
-        margin-right: 100px;
-    }
     
-
-    .titulo{
-        padding-right: 0;
-        display: grid;
-        justify-content: center;
+    .resumen img{
+        width: 60%;
     }
-
-    .row .texto{
-        padding-right: 0;
-        width: 90%;
-    }
-
-    .titulos .row{
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-    }
-
-    .card-hover{
-        width: 90%;
-    }
-
-    .row .titulo{
-        width: 80%;
-    }
-
-    .datos{
-        text-align: center;
-    }
-
-    .imagen{
-        width: 100%;
-        display: grid;
-        justify-content: center;
-    }
-
-    .datos .row{ 
-        width: 100%;
-        text-align: left;
-    }
-
-
-
-
-    .puntos{
-        padding-right: 0;
-        justify-content: center;
-       margin-bottom: 20px;
-    }
+  
 
     .grupo{
         display: grid;
@@ -633,4 +609,3 @@ form input, textarea{
         font-size: 40px;
     }
  }
- 

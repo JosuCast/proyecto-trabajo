@@ -14,7 +14,7 @@ body {
 
 
 .contacto {
-    background-color: aqua;
+    background-color: rgba(247,247,247,1);
     height: 50px;
     display: flex;
     align-items: center;
