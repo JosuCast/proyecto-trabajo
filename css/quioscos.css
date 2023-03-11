@@ -191,8 +191,17 @@ li {
     color: red;
 }
 
+.seleccionado{
+    transform: translateX(5%);
+    color: red;
+}
+
+.selected{
+    color: red;
+}
+
 .categoria a:hover .texto{
-    transform: translateX(3%);
+    transform: translateX(5%);
     transition: all 400ms ease;
 }
 
@@ -245,6 +254,15 @@ li {
    background-color: rgba(128, 128, 128, 0.1);
    outline: none;
 }
+
+.formulario form select{
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.2);
+    border-width: 1px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.1);
+    outline: none;
+ }
 
 .formulario form input:focus{
     border-color: rgba(100, 4, 4,1);
@@ -362,6 +380,34 @@ li {
     .icono-titulo i{
         
         font-size: 120%;
+    }
+}
+
+@media(max-width: 1482px){
+    .publicaciones-blog{
+        display: grid;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .blog-right{
+        width: 100%;
+        order: 2;
+    }
+
+    .contenido{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        order: 1;
+    }
+
+    .blog-cards{
+        width: 100%;
     }
 }
 
@@ -565,8 +611,32 @@ li {
         width: 95%;
     }
 
+    .blog{
+        justify-content: center;
+    }
+
  }
 
+ @media (max-width: 690px){
+    .fila{
+        display: grid;
+        padding: 0;
+    }
+
+    .elegir h6{
+        margin-bottom: 40px;
+    }
+
+    .razon{
+        margin-bottom: 20px;
+    }
+ }
+
+@media(max-width: 624px){
+    .texto-blog{
+        justify-content: center;
+    }
+}
 
  @media (max-width: 510px){
 
