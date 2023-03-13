@@ -11,12 +11,16 @@ body {
     display: none;
 }
 
+.nav-fondo{
+    background-color: #1761D1;
+}
 
 .contacto {
-    background-color: rgba(247,247,247,1);
+    background-color: #fff;
     height: 50px;
     display: flex;
     align-items: center;
+    color: #000;
 }
 
 .info {
@@ -30,6 +34,7 @@ body {
 .active {   
     border-bottom: 3px solid red;    
     color: #fff;
+    outline: none;
 }
 
 .item{
@@ -98,18 +103,22 @@ li {
     border: none;
     color: #fff;
     font-weight: bold;
+    padding: 10px 25px;
+    font-weight: 900;
+    font-size: 15px;
 }
 
 .cotizar:hover{
-    background-color: rgba(247,247,247,1);
-    color: #000;
+    background-color: rgba(100, 4, 4,1);
+    color: #fff;
+    transition: 0.5s ease;
 }
 
 .presentacion {
     background-image: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 255, 0.5)
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)
   ), url("https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-people-and-city-business-technology-image_262168.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,6 +151,14 @@ li {
 .descarga{
     padding: 15px 20px;
     font-weight: bold;
+    background-color: red;
+    border: none;
+}
+
+.descarga:hover{
+    transition: 0.5s ease;
+    transform: translateX(3%);
+    background-color: red;
 }
 
 .servicios {
@@ -210,7 +227,7 @@ li {
 }
 
 .card-hover:hover .circulo{
-    background-color: blue;
+    background-color: red;
     color: #fff;
 }
 
@@ -218,14 +235,22 @@ li {
     color: #1c1959;
 }
 
+.nosotros-titulo p{
+    font-weight: 600;
+    font-size: 15px;
+}
 
+.nosotros-titulo h5{
+    font-weight: 500;
+    font-size: 40px;
+}
 
 .circulo {
     border-radius: 50%;
-    color: blue;
+    color: red;
     background-color: white;
     border: 0px;
-
+    font-size: 15px;
 }
 
 .row .texto {
@@ -278,6 +303,7 @@ li {
 
 .valores h6 {
     font-weight: bold;
+    
 }
 
 .valores p {
@@ -289,9 +315,19 @@ li {
 
     justify-content: center;
     text-align: center;
-    background-color: cadetblue;
+    background-color: #BF0000;
     width: auto;
     height: auto;
+    
+}
+
+.titulo-proceso h5{
+    color: #fff;
+    font-weight: 800;
+}
+
+.titulo-proceso p{
+    color: #fff;
 }
 
 .contenedor-cartas {
@@ -306,7 +342,7 @@ li {
 }
 
 .carta {
-    background-color: chocolate;
+    background-color: #fff;
     font-size: 12px;
     padding-left: 20px;
     padding-right: 20px;
@@ -316,7 +352,7 @@ li {
 
 .iconos {
     display: flex;
-    background-color: blueviolet;
+    background-color: #165BC4;
     position: relative;
     top: -15%;
     justify-content: center;
@@ -420,15 +456,7 @@ li {
     text-align: center;
 }
 
-.nosotros-titulo p{
-    font-weight: 600;
-    font-size: 15px;
-}
 
-.nosotros-titulo h5{
-    font-weight: 500;
-    font-size: 40px;
-}
 
 .personas{
     display: flex;
@@ -494,12 +522,30 @@ li {
     margin-bottom: 20px;
 }
 
+.formulario .row select{
+    width: 28%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
 .formulario .row button{
     width: 90%;
     margin-left: 5%;
     height: 120%;
+    background-color: red;
+    border: none;
+    font-weight: 600;
 }
 
+.formulario .row button:hover{
+    background-color: #BF0000;
+    transition: 0.5s ease;
+}
 
 .slider {
     width: 70vw;
