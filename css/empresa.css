@@ -92,9 +92,15 @@ li {
 
 
 .cotizar {
-    background-color: blue;
-    color: white;
+    background-color: red;
+    border: none;
+    color: #fff;
     font-weight: bold;
+}
+
+.cotizar:hover{
+    background-color: rgba(247,247,247,1);
+    color: #000;
 }
 
 .presentacion {
